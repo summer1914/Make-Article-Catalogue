@@ -2,7 +2,7 @@
 
   function createTree (context) {
     context = context || document
-    var els = context.querySelectorAll('h2,h3,h4,h5,h6')
+    var els = context.querySelectorAll('h1,h2,h3,h4,h5,h6')
     var arr = Array.prototype.slice.call(els)
 
     var root = {
@@ -66,7 +66,6 @@
   function mount (el, target) {
     var tree = createTree(el)
     var menuElm = createMenu(tree)
-
     target.innerHTML = menuElm
   }
 

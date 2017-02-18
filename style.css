@@ -1,0 +1,61 @@
+/*-------------------------------*/
+/*     Sidebar nav styles        */
+/*-------------------------------*/
+.sidebar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.sidebar-nav li{
+	list-style: none;
+	float: right;
+	width: 180px;
+}
+
+.sidebar-nav a{
+	background: #33CCFF;
+	border-bottom: 1px solid #fff
+}
+
+.sidebar-nav > ul > li > a{
+	border-left:10px solid #33CCFF;
+	padding-left: 5px;
+}
+.sidebar-nav > ul > li > ul > li > a{
+	padding-left: 8px;
+}
+.sidebar-nav > ul > li > ul > li > ul > li > a{
+	padding-left: 11px;
+}
+.sidebar-nav > ul > li > ul > li > ul > li > ul > li > a{
+	padding-left: 14px;
+}
+.sidebar-nav > ul > li > ul > li > ul > li > ul > li > ul > li > a{
+	padding-left: 17px;
+}
+.sidebar-nav > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > a{
+	padding-left: 20px;
+}
+
+.sidebar-nav li a {
+  display: inline-block;
+  line-height: 20px;
+  position: relative;
+  width: 100%;
+  text-align: left;
+  color: #ffffff;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+}
+
+
+.sidebar-nav li a:hover{
+	padding: 8px 0px;
+}
+
